@@ -3,9 +3,8 @@ package strutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/strutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestMd5(t *testing.T) {
@@ -20,7 +19,7 @@ func TestEncryptPasswd(t *testing.T) {
 	pwd := "abc123456"
 
 	msgMac := strutil.HashPasswd(pwd, key)
-	dump.P(msgMac)
+	pretty.P(msgMac)
 	assert.NotEmpty(t, msgMac)
 	assert.True(t, strutil.VerifyPasswd(msgMac, pwd, key))
 }

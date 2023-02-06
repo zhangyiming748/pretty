@@ -20,13 +20,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/cliutil"
-	"github.com/gookit/goutil/dump"
+	"github.com/zhangyiming748/pretty/cliutil"
+	"github.com/zhangyiming748/pretty/dump"
 )
 
 func main() {
 	args := cliutil.ParseLine(`./app top sub --msg "has multi words"`)
-	dump.P(args)
+	pretty.P(args)
 
 	s := cliutil.BuildLine("./myapp", []string{
 		"-a", "val0",
@@ -40,7 +40,7 @@ func main() {
 **output**:
 
 ```shell
-PRINT AT github.com/gookit/goutil/cliutil_test.TestParseLine(line_parser_test.go:30)
+PRINT AT github.com/zhangyiming748/pretty/cliutil_test.TestParseLine(line_parser_test.go:30)
 []string [ #len=5
   string("./app"), #len=5
   string("top"), #len=3

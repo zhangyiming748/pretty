@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gookit/goutil/testutil"
+	"github.com/zhangyiming748/pretty/testutil"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 

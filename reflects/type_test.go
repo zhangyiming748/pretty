@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/reflects"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestToBaseKind(t *testing.T) {

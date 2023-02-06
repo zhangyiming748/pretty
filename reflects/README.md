@@ -7,12 +7,12 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/reflects
+go get github.com/zhangyiming748/pretty/reflects
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/reflects)
+- [Go docs](https://pkg.go.dev/github.com/zhangyiming748/pretty/reflects)
 
 ## Usage
 

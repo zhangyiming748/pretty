@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/strutil"
+	"github.com/zhangyiming748/pretty/comdef"
+	"github.com/zhangyiming748/pretty/errorx"
+	"github.com/zhangyiming748/pretty/strutil"
 )
 
 // define special chars consts

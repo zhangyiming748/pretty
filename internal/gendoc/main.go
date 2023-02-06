@@ -11,13 +11,12 @@ import (
 	"strings"
 
 	"github.com/gookit/color"
-	"github.com/gookit/goutil"
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/cflag"
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/stdio"
-	"github.com/gookit/goutil/strutil"
+	"github.com/zhangyiming748/pretty/arrutil"
+	"github.com/zhangyiming748/pretty/cflag"
+	"github.com/zhangyiming748/pretty/dump"
+	"github.com/zhangyiming748/pretty/fsutil"
+	"github.com/zhangyiming748/pretty/stdio"
+	"github.com/zhangyiming748/pretty/strutil"
 )
 
 var (
@@ -151,7 +150,7 @@ func handle(c *cflag.CFlags) error {
 		tplBody = fsutil.MustReadFile(tplFile)
 	}
 
-	basePkg := "github.com/gookit/goutil"
+	basePkg := "github.com/zhangyiming748/pretty"
 
 	// collect functions
 	buf := collectPgkFunc(ms, basePkg)

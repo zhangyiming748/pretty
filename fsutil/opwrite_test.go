@@ -3,8 +3,8 @@ package fsutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/fsutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestMustCopyFile(t *testing.T) {

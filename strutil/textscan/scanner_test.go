@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/strutil/textscan"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/strutil/textscan"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func ExampleNewScanner() {
@@ -77,7 +76,7 @@ line string
 	})
 
 	fmt.Println("\n==== Collected data:")
-	dump.P(data)
+	pretty.P(data)
 	assert.NoErr(t, err)
 	assert.NotEmpty(t, data)
 	assert.ContainsKeys(t, data, []string{"age", "name", "desc"})

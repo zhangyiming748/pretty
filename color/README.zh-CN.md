@@ -572,7 +572,7 @@ const (
   - [gookit/color](https://github.com/gookit/color) CLI 控制台颜色渲染工具库, 拥有简洁的使用API，支持16色，256色，RGB色彩渲染输出
   - [gookit/filter](https://github.com/gookit/filter) 提供对Golang数据的过滤，净化，转换
   - [gookit/validate](https://github.com/gookit/validate) Go通用的数据验证与过滤库，使用简单，内置大部分常用验证、过滤器
-  - [gookit/goutil](https://github.com/gookit/goutil) Go 的一些工具函数，格式化，特殊处理，常用信息获取等
+  - [zhangyiming748/pretty](https://github.com/zhangyiming748/pretty) Go 的一些工具函数，格式化，特殊处理，常用信息获取等
   - 更多请查看 https://github.com/gookit
 
 ## 参考项目

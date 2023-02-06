@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gookit/goutil/internal/comfunc"
-	"github.com/gookit/goutil/testutil"
+	"github.com/zhangyiming748/pretty/internal/comfunc"
+	"github.com/zhangyiming748/pretty/testutil"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gookit/goutil/byteutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/byteutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestFirstLine(t *testing.T) {

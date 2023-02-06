@@ -5,7 +5,7 @@ example code:
 ```go
 package main
 
-import "github.com/gookit/goutil/dump"
+import "github.com/zhangyiming748/pretty/dump"
 
 // rum demo:
 // 	go run ./dump/_examples/demo1.go
@@ -14,7 +14,7 @@ func main() {
 }
 
 func otherFunc1() {
-	dump.P(
+	pretty.P(
 		23,
 		[]string{"ab", "cd"},
 		[]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, // len > 10

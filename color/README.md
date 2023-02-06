@@ -561,7 +561,7 @@ Check out these projects, which use https://github.com/gookit/color :
   - [gookit/color](https://github.com/gookit/color) A command-line color library with true color support, universal API methods and Windows support
   - [gookit/filter](https://github.com/gookit/filter) Provide filtering, sanitizing, and conversion of golang data
   - [gookit/validate](https://github.com/gookit/validate) Use for data validation and filtering. support Map, Struct, Form data
-  - [gookit/goutil](https://github.com/gookit/goutil) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
+  - [zhangyiming748/pretty](https://github.com/zhangyiming748/pretty) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
   - More, please see https://github.com/gookit
 
 ## See also

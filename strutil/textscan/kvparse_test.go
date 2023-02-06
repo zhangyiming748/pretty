@@ -3,10 +3,10 @@ package textscan_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/strutil/textscan"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/comdef"
+	"github.com/zhangyiming748/pretty/errorx"
+	"github.com/zhangyiming748/pretty/strutil/textscan"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestKeyValueMatcher_Match(t *testing.T) {

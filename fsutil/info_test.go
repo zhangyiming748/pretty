@@ -5,10 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/errorx"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/errorx"
+	"github.com/zhangyiming748/pretty/fsutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestExpandPath(t *testing.T) {
@@ -34,7 +33,7 @@ func TestFindInDir(t *testing.T) {
 		return nil
 	})
 
-	dump.P(files)
+	pretty.P(files)
 	assert.NoErr(t, err)
 	assert.True(t, len(files) > 0)
 

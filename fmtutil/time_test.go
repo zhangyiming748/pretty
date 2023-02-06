@@ -3,8 +3,8 @@ package fmtutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/fmtutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/fmtutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestHowLongAgo(t *testing.T) {

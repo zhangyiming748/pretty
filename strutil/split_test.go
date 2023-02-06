@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gookit/goutil/strutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/strutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestCut(t *testing.T) {

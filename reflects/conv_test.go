@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil/arrutil"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/arrutil"
+	"github.com/zhangyiming748/pretty/reflects"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestBaseTypeVal(t *testing.T) {

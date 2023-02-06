@@ -6,7 +6,7 @@ Can use for parse like INI, Properties format contents.
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/strutil/textscan
+go get github.com/zhangyiming748/pretty/strutil/textscan
 ```
 
 ## Examples
@@ -17,9 +17,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/strutil/textscan"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/dump"
+	"github.com/zhangyiming748/pretty/strutil/textscan"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func main() {
@@ -57,7 +57,7 @@ line string
 		}
 	})
 
-	dump.P(data, err)
+	pretty.P(data, err)
 }
 ```
 

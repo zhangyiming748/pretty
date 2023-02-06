@@ -5,12 +5,12 @@ Provide some commonly bytes util functions.
 ## Install
 
 ```shell
-go get github.com/gookit/goutil/byteutil
+go get github.com/zhangyiming748/pretty/byteutil
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/byteutil)
+- [Go docs](https://pkg.go.dev/github.com/zhangyiming748/pretty/byteutil)
 
 ## Functions API
 

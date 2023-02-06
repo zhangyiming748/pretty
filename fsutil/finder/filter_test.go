@@ -3,8 +3,8 @@ package finder_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/fsutil/finder"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/fsutil/finder"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestFilterFunc(t *testing.T) {

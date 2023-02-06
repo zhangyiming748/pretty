@@ -1,11 +1,11 @@
 # Go Util
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/goutil?style=flat-square)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/goutil)](https://github.com/gookit/goutil)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gookit/goutil)](https://goreportcard.com/report/github.com/gookit/goutil)
-[![Unit-Tests](https://github.com/gookit/goutil/workflows/Unit-Tests/badge.svg)](https://github.com/gookit/goutil/actions)
-[![Coverage Status](https://coveralls.io/repos/github/gookit/goutil/badge.svg?branch=master)](https://coveralls.io/github/gookit/goutil?branch=master)
-[![Go Reference](https://pkg.go.dev/badge/github.com/gookit/goutil.svg)](https://pkg.go.dev/github.com/gookit/goutil)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/zhangyiming748/pretty?style=flat-square)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/zhangyiming748/pretty)](https://github.com/zhangyiming748/pretty)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zhangyiming748/pretty)](https://goreportcard.com/report/github.com/zhangyiming748/pretty)
+[![Unit-Tests](https://github.com/zhangyiming748/pretty/workflows/Unit-Tests/badge.svg)](https://github.com/zhangyiming748/pretty/actions)
+[![Coverage Status](https://coveralls.io/repos/github/zhangyiming748/pretty/badge.svg?branch=master)](https://coveralls.io/github/zhangyiming748/pretty?branch=master)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zhangyiming748/pretty.svg)](https://pkg.go.dev/github.com/zhangyiming748/pretty)
 
 💪 Useful utils package for the Go: int, string, array/slice, map, error, time, format, CLI, ENV, filesystem, system, testing and more.
 
@@ -50,18 +50,18 @@
 
 ## Go Doc
 
-Please see [Go doc](https://pkg.go.dev/github.com/gookit/goutil)
+Please see [Go doc](https://pkg.go.dev/github.com/zhangyiming748/pretty)
 
 ## Install
 
 ```shell
-go get github.com/gookit/goutil
+go get github.com/zhangyiming748/pretty
 ```
 
 ## Usage
 
 ```go
-// github.com/gookit/goutil
+// github.com/zhangyiming748/pretty
 is.True(goutil.IsEmpty(nil))
 is.False(goutil.IsEmpty("abc"))
 
@@ -121,7 +121,7 @@ root@xx:/go/work# go test ./...
 - [gookit/config](https://github.com/gookit/config) Go config management. support JSON, YAML, TOML, INI, HCL, ENV and Flags
 - [gookit/filter](https://github.com/gookit/filter) Provide filtering, sanitizing, and conversion of golang data
 - [gookit/validate](https://github.com/gookit/validate) Use for data validation and filtering. support Map, Struct, Form data
-- [gookit/goutil](https://github.com/gookit/goutil) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
+- [zhangyiming748/pretty](https://github.com/zhangyiming748/pretty) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
 - More, please see https://github.com/gookit
 
 ## License

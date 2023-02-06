@@ -62,12 +62,12 @@ Examples for use `errorx` package, more please see [./errorx/README](errorx/READ
 ```text
 the error message
 STACK:
-github.com/gookit/goutil/errorx_test.returnXErr()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:21
-github.com/gookit/goutil/errorx_test.returnXErrL2()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:25
-github.com/gookit/goutil/errorx_test.TestNew()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:29
+github.com/zhangyiming748/pretty/errorx_test.returnXErr()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:21
+github.com/zhangyiming748/pretty/errorx_test.returnXErrL2()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:25
+github.com/zhangyiming748/pretty/errorx_test.TestNew()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:29
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
 runtime.goexit()

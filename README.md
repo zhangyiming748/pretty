@@ -5,18 +5,18 @@ like fmt.Println but more pretty and beautiful print Go values.
 
 `goutil/dump` is a golang data printing toolkit that prints beautiful and easy to read go slice, map, struct data
 
-- Github: https://github.com/gookit/goutil/dump
-- GoDoc: https://pkg.go.dev/github.com/gookit/goutil/dump
+- Github: https://github.com/zhangyiming748/pretty/dump
+- GoDoc: https://pkg.go.dev/github.com/zhangyiming748/pretty/dump
 
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/dump
+go get github.com/zhangyiming748/pretty/dump
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/dump)
+- [Go docs](https://pkg.go.dev/github.com/zhangyiming748/pretty/dump)
 
 ## Usage
 
@@ -33,7 +33,7 @@ func main() {
 }
 
 func otherFunc1() {
-	dump.P(
+	pretty.P(
 		23,
 		[]string{"ab", "cd"},
 		[]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, // len > 10

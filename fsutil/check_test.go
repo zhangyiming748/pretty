@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/fsutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 //goland:noinspection GoBoolExpressions

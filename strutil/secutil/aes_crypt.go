@@ -4,7 +4,7 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 
-	"github.com/gookit/goutil/byteutil"
+	"github.com/zhangyiming748/pretty/byteutil"
 )
 
 // aes methods

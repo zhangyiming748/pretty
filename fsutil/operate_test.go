@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gookit/goutil/envutil"
-	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/envutil"
+	"github.com/zhangyiming748/pretty/fsutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestMkdir(t *testing.T) {

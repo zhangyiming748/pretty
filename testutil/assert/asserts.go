@@ -7,11 +7,11 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/gookit/color"
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/stdutil"
+	"github.com/zhangyiming748/pretty/color"
+	"github.com/zhangyiming748/pretty/maputil"
+	"github.com/zhangyiming748/pretty/mathutil"
+	"github.com/zhangyiming748/pretty/reflects"
+	"github.com/zhangyiming748/pretty/stdutil"
 )
 
 // Nil asserts that the given is a nil value

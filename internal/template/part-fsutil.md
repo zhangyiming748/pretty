@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gookit/goutil/fsutil/finder"
+	"github.com/zhangyiming748/pretty/fsutil/finder"
 )
 
 func main() {

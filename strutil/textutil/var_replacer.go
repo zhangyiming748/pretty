@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gookit/goutil/maputil"
-	"github.com/gookit/goutil/strutil"
+	"github.com/zhangyiming748/pretty/maputil"
+	"github.com/zhangyiming748/pretty/strutil"
 )
 
 const defaultVarFormat = "{{,}}"

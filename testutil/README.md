@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-go get github.com/gookit/goutil/testutil
+go get github.com/zhangyiming748/pretty/testutil
 ```
 
 ## [`assert`](./assert) tests
@@ -20,7 +20,7 @@ package assert_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/errorx"
+	"github.com/zhangyiming748/pretty/errorx"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
@@ -71,7 +71,7 @@ package testutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/testutil"
+	"github.com/zhangyiming748/pretty/testutil"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 

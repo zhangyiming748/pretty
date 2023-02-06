@@ -3,9 +3,9 @@ package mathutil_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/comdef"
-	"github.com/gookit/goutil/mathutil"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/comdef"
+	"github.com/zhangyiming748/pretty/mathutil"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestCompare(t *testing.T) {

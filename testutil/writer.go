@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/gookit/goutil/errorx"
+	"github.com/zhangyiming748/pretty/errorx"
 )
 
 // TestWriter struct, useful for testing

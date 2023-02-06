@@ -4,9 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gookit/goutil/dump"
-	"github.com/gookit/goutil/reflects"
-	"github.com/gookit/goutil/testutil/assert"
+	"github.com/zhangyiming748/pretty/reflects"
+	"github.com/zhangyiming748/pretty/testutil/assert"
 )
 
 func TestLen(t *testing.T) {
@@ -78,7 +77,7 @@ func TestSliceAddItem_fail1(t *testing.T) {
 
 	rv = reflect.Append(rv, reflect.New(ty.Elem()).Elem())
 	// rv.Set(reflect.Append(rv, reflect.New(ty.Elem()).Elem()))
-	dump.P(sl, rv.CanAddr(), rv.Interface())
+	pretty.P(sl, rv.CanAddr(), rv.Interface())
 
 	assert.Eq(t, rv.Len(), 2)
 }
@@ -105,7 +104,7 @@ func TestSliceAddItem_ok(t *testing.T) {
 
 	rv.Index(1).Set(reflect.ValueOf("def"))
 
-	dump.P(sl)
+	pretty.P(sl)
 }
 
 func TestSlice_subMap_addItem(t *testing.T) {
@@ -118,9 +117,9 @@ func TestSlice_subMap_addItem(t *testing.T) {
 	rv := reflect.ValueOf(d)
 
 	vv := rv.Index(0).Elem()
-	dump.P(rv.CanAddr(), vv.CanAddr())
+	pretty.P(rv.CanAddr(), vv.CanAddr())
 	vv.SetMapIndex(reflect.ValueOf("newKey"), reflect.ValueOf("newVal"))
-	dump.P(d)
+	pretty.P(d)
 }
 
 func TestMap_subSlice_addItem(t *testing.T) {
@@ -130,10 +129,10 @@ func TestMap_subSlice_addItem(t *testing.T) {
 
 	// ty := reflect.TypeOf(mp)
 	rv := reflect.ValueOf(mp)
-	dump.P(rv.CanAddr())
+	pretty.P(rv.CanAddr())
 
 	rv.SetMapIndex(reflect.ValueOf("k2"), reflect.ValueOf("v2"))
-	dump.P(mp)
+	pretty.P(mp)
 
 	slk := reflect.ValueOf("sl")
 	srv := rv.MapIndex(slk)
@@ -142,12 +141,12 @@ func TestMap_subSlice_addItem(t *testing.T) {
 	}
 	sty := srv.Type()
 
-	dump.P(srv.CanAddr())
+	pretty.P(srv.CanAddr())
 	assert.Eq(t, reflect.Slice, sty.Kind())
 	assert.Eq(t, reflect.String, sty.Elem().Kind())
 
 	msl := reflect.MakeSlice(sty, 0, srv.Cap())
-	dump.P(msl.CanAddr())
+	pretty.P(msl.CanAddr())
 
 	srv = reflect.Append(srv, reflect.New(sty.Elem()).Elem())
 	// srv.Set(srv)
@@ -156,7 +155,7 @@ func TestMap_subSlice_addItem(t *testing.T) {
 	rv.SetMapIndex(slk, srv)
 
 	// ret.Set(rv)
-	dump.P(mp, srv.Interface())
+	pretty.P(mp, srv.Interface())
 }
 
 func TestSetValue(t *testing.T) {

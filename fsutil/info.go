@@ -6,7 +6,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/gookit/goutil/internal/comfunc"
+	"github.com/zhangyiming748/pretty/internal/comfunc"
 )
 
 // Dir get dir path, without last name.

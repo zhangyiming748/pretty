@@ -3,8 +3,8 @@ package panics_test
 import (
 	"testing"
 
-	"github.com/gookit/goutil/testutil/panics"
 	"github.com/zhangyiming748/pretty/testutil/assert"
+	"github.com/zhangyiming748/pretty/testutil/panics"
 )
 
 func TestIsTrue(t *testing.T) {
