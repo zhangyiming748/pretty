@@ -1,11 +1,11 @@
 package cmdline_test
 
 import (
-	"strings"
-	"testing"
-
+	"github.com/zhangyiming748/pretty"
 	"github.com/zhangyiming748/pretty/cliutil/cmdline"
 	"github.com/zhangyiming748/pretty/testutil/assert"
+	"strings"
+	"testing"
 )
 
 func TestLineParser_Parse(t *testing.T) {
