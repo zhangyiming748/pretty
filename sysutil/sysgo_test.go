@@ -1,9 +1,9 @@
 package sysutil_test
 
 import (
+	"github.com/zhangyiming748/pretty"
 	"testing"
 
-	"github.com/zhangyiming748/pretty/dump"
 	"github.com/zhangyiming748/pretty/sysutil"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
@@ -21,5 +21,5 @@ func TestGoVersion(t *testing.T) {
 	info, err = sysutil.OsGoInfo()
 	assert.NoErr(t, err)
 	assert.NotEmpty(t, info)
-	dump.P(info)
+	pretty.P(info)
 }

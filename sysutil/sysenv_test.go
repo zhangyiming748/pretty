@@ -18,7 +18,7 @@ func TestSysenv_common(t *testing.T) {
 
 	ss = sysutil.SearchPath("go")
 	assert.NotEmpty(t, ss)
-	// dump.P(ss)
+	// pretty.P(ss)
 }
 
 func TestCurrentShell(t *testing.T) {

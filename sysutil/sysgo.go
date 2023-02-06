@@ -37,7 +37,7 @@ var goVerRegex = regexp.MustCompile(`\sgo([\d.]+)\s(\w+)/(\w+)`)
 //		}
 //
 //		info, err := sysutil.ParseGoVersion()
-//	 	dump.P(info)
+//	 	pretty.P(info)
 func ParseGoVersion(line string) (*GoInfo, error) {
 	// eg: [" go1.19 darwin/amd64", "1.19", "darwin", "amd64"]
 	lines := goVerRegex.FindStringSubmatch(line)

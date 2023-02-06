@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/zhangyiming748/pretty/cflag"
-	"github.com/zhangyiming748/pretty/dump"
 )
 
 var c1Opts = struct {
@@ -34,7 +33,7 @@ func main() {
 		c.AddArg("arg2", "this is arg2", false, nil)
 	}
 	c1.Func = func(c *cflag.Cmd) error {
-		dump.P(c1Opts, c.Args())
+		pretty.P(c1Opts, c.Args())
 		return nil
 	}
 
@@ -44,7 +43,7 @@ func main() {
 		c2.StringVar(&c2Opts.lOpt, "long-opt", "", "this is a string option with shorts;;lo")
 
 		c2.Func = func(c *cflag.Cmd) error {
-			dump.P(c2Opts)
+			pretty.P(c2Opts)
 			return nil
 		}
 	}

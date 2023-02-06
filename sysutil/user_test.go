@@ -3,7 +3,6 @@ package sysutil_test
 import (
 	"testing"
 
-	"github.com/zhangyiming748/pretty/dump"
 	"github.com/zhangyiming748/pretty/sysutil"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
@@ -11,7 +10,7 @@ import (
 func TestUserDir(t *testing.T) {
 	dir := sysutil.UserHomeDir()
 	assert.NotEmpty(t, dir)
-	dump.P(dir)
+	pretty.P(dir)
 
 	dir1 := sysutil.HomeDir()
 	assert.NotEmpty(t, dir1)
@@ -22,15 +21,15 @@ func TestUserDir(t *testing.T) {
 
 	dir = sysutil.UserDir("sub-path")
 	assert.Contains(t, dir, "/sub-path")
-	dump.P(dir)
+	pretty.P(dir)
 
 	dir = sysutil.UserCacheDir("my-logs")
 	assert.Contains(t, dir, ".cache/my-logs")
-	dump.P(dir)
+	pretty.P(dir)
 
 	dir = sysutil.UserConfigDir("my-conf")
 	assert.Contains(t, dir, ".config/my-conf")
-	dump.P(dir)
+	pretty.P(dir)
 
 	rawPath := "~/.kite"
 	assert.LenGt(t, sysutil.ExpandPath(rawPath), len(rawPath))

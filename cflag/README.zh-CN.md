@@ -191,7 +191,7 @@ func main() {
 		c.AddArg("arg2", "this is arg2", false, nil)
 	}
 	c1.Func = func(c *cflag.Cmd) error {
-		dump.P(c1Opts, c.Args())
+		pretty.P(c1Opts, c.Args())
 		return nil
 	}
 

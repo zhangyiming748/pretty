@@ -6,7 +6,6 @@ import (
 	"testing"
 
 	"github.com/zhangyiming748/pretty/cflag"
-	"github.com/zhangyiming748/pretty/dump"
 	"github.com/zhangyiming748/pretty/strutil"
 	"github.com/zhangyiming748/pretty/testutil/assert"
 )
@@ -31,7 +30,7 @@ func ExampleNewApp() {
 	}
 
 	c1.Func = func(c *cflag.Cmd) error {
-		dump.P(c1Opts, c.Args())
+		pretty.P(c1Opts, c.Args())
 		return nil
 	}
 
@@ -47,7 +46,7 @@ func ExampleNewApp() {
 		c2.StringVar(&c2Opts.lOpt, "long-opt", "", "this is a string option with shorts;;lo")
 
 		c2.Func = func(c *cflag.Cmd) error {
-			dump.P(c2Opts)
+			pretty.P(c2Opts)
 			return nil
 		}
 	}
@@ -84,7 +83,7 @@ func TestApp_Run(t *testing.T) {
 	}
 	c1.Config(func(c *cflag.Cmd) {
 		c.Func = func(c *cflag.Cmd) error {
-			dump.P(c1Opts, c.Args())
+			pretty.P(c1Opts, c.Args())
 			return nil
 		}
 	})

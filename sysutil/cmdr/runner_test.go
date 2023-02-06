@@ -28,7 +28,7 @@ func TestRunner_Run(t *testing.T) {
 	assert.True(t, task.IsSuccess())
 
 	ids := rr.TaskIDs()
-	// dump.P(rr.TaskIDs())
+	// pretty.P(rr.TaskIDs())
 	assert.Len(t, ids, 2)
 	assert.NotEmpty(t, ids)
 	assert.Contains(t, ids, task.ID)

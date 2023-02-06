@@ -5,7 +5,6 @@ import (
 	"os"
 
 	"github.com/zhangyiming748/pretty/cliutil"
-	"github.com/zhangyiming748/pretty/dump"
 )
 
 var opts1 = struct {
@@ -40,5 +39,5 @@ func main() {
 func handleFunc1() {
 	cliutil.Infoln("after parse, do something")
 
-	dump.P(opts1)
+	pretty.P(opts1)
 }

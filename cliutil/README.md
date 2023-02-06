@@ -75,7 +75,7 @@ import (
 
 func main() {
 	args := cliutil.ParseLine(`./app top sub --msg "has multi words"`)
-	dump.P(args)
+	pretty.P(args)
 }
 ```
 
