@@ -1,6 +1,6 @@
-module github.com/gookit/color
+module github.com/zhangyiming748/pretty/color
 
-go 1.16
+go 1.19
 
 require (
 	github.com/stretchr/testify v1.8.0
