@@ -164,13 +164,13 @@ func TestTo_ErrorX(t *testing.T) {
 	assert.Err(t, err)
 
 	assert.True(t, errorx.To(err, &ex))
-	assert.Contains(t, ex.Location(), "github.com/gookit/goutil/errorx_test.returnXErr(), errorx_test.go")
+	assert.Contains(t, ex.Location(), "github.com/zhangyiming748/pretty/errorx_test.returnXErr(), errorx_test.go")
 	assert.Eq(t, "an error message", ex.Message())
-	assert.Contains(t, ex.StackString(), "github.com/gookit/goutil/errorx_test.returnXErr()")
+	assert.Contains(t, ex.StackString(), "github.com/zhangyiming748/pretty/errorx_test.returnXErr()")
 
 	fn := ex.CallerFunc()
 	assert.NotNil(t, fn)
-	assert.Eq(t, "github.com/gookit/goutil/errorx_test.returnXErr", fn.Name())
+	assert.Eq(t, "github.com/zhangyiming748/pretty/errorx_test.returnXErr", fn.Name())
 	assert.Contains(t, fn.String(), "errorx_test.returnXErr()")
 }
 

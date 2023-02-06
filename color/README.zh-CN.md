@@ -1,13 +1,13 @@
 # CLI Color
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)
-[![Actions Status](https://github.com/gookit/color/workflows/action-tests/badge.svg)](https://github.com/gookit/color/actions)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7fef8d74c1d64afc99ce0f2c6d3f8af1)](https://www.codacy.com/gh/gookit/color/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gookit/color&amp;utm_campaign=Badge_Grade)
-[![GoDoc](https://godoc.org/github.com/gookit/color?status.svg)](https://pkg.go.dev/github.com/gookit/color?tab=overview)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/color)](https://github.com/gookit/color)
-[![Build Status](https://travis-ci.org/gookit/color.svg?branch=master)](https://travis-ci.org/gookit/color)
-[![Coverage Status](https://coveralls.io/repos/github/gookit/color/badge.svg?branch=master)](https://coveralls.io/github/gookit/color?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gookit/color)](https://goreportcard.com/report/github.com/gookit/color)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/zhangyiming748/pretty/color?style=flat-square)
+[![Actions Status](https://github.com/zhangyiming748/pretty/color/workflows/action-tests/badge.svg)](https://github.com/zhangyiming748/pretty/color/actions)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7fef8d74c1d64afc99ce0f2c6d3f8af1)](https://www.codacy.com/gh/zhangyiming748/pretty/color/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zhangyiming748/pretty/color&amp;utm_campaign=Badge_Grade)
+[![GoDoc](https://godoc.org/github.com/zhangyiming748/pretty/color?status.svg)](https://pkg.go.dev/github.com/zhangyiming748/pretty/color?tab=overview)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/zhangyiming748/pretty/color)](https://github.com/zhangyiming748/pretty/color)
+[![Build Status](https://travis-ci.org/zhangyiming748/pretty/color.svg?branch=master)](https://travis-ci.org/zhangyiming748/pretty/color)
+[![Coverage Status](https://coveralls.io/repos/github/zhangyiming748/pretty/color/badge.svg?branch=master)](https://coveralls.io/github/zhangyiming748/pretty/color?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zhangyiming748/pretty/color)](https://goreportcard.com/report/github.com/zhangyiming748/pretty/color)
 
 Golang下的命令行色彩使用库, 拥有丰富的色彩(16/256/True)渲染输出，通用的API方法，兼容Windows系统
 
@@ -41,13 +41,13 @@ Golang下的命令行色彩使用库, 拥有丰富的色彩(16/256/True)渲染�
 
 ## GoDoc
 
-  - [godoc for gopkg](https://pkg.go.dev/gopkg.in/gookit/color.v1)
-  - [godoc for github](https://pkg.go.dev/github.com/gookit/color)
+  - [godoc for gopkg](https://pkg.go.dev/gopkg.in/zhangyiming748/pretty/color.v1)
+  - [godoc for github](https://pkg.go.dev/github.com/zhangyiming748/pretty/color)
 
 ## 安装
 
 ```bash
-go get github.com/gookit/color
+go get github.com/zhangyiming748/pretty/color
 ```
 
 ## 快速开始
@@ -357,7 +357,7 @@ s.Printf("style with %s\n", "options")
 
 ```go
 	text := `
-  <mga1>gookit/color:</>
+  <mga1>zhangyiming748/pretty/color:</>
      A <green>command-line</> 
      <cyan>color library</> with <fg=167;bg=232>256-color</>
      and <fg=11aa23;op=bold>True-color</> support,
@@ -522,7 +522,7 @@ func RgbToHslInt(r, g, b uint8) []int
 - `Colors2code(colors ...Color) string` Convert colors to code. return like "32;45;3"
 - `ClearTag(s string) string` clear all color html-tag for a string
 - `IsConsole(w io.Writer)` Determine whether w is one of stderr, stdout, stdin
-- 更多请查看文档 https://pkg.go.dev/github.com/gookit/color
+- 更多请查看文档 https://pkg.go.dev/github.com/zhangyiming748/pretty/color
 
 ### 检测支持的颜色级别
 
@@ -548,7 +548,7 @@ const (
 
 ## 使用Color的项目
 
-看看这些使用了 https://github.com/gookit/color 的项目:
+看看这些使用了 https://github.com/zhangyiming748/pretty/color 的项目:
 
 - https://github.com/Delta456/box-cli-maker Make Highly Customized Boxes for your CLI
 - https://github.com/flipped-aurora/gin-vue-admin 基于gin+vue搭建的（中）后台系统框架
@@ -558,22 +558,22 @@ const (
 - https://github.com/pterm/pterm PTerm is a modern Go module to beautify console output. Featuring charts, progressbars, tables, trees, etc.
 - https://github.com/securego/gosec Golang security checker
 - https://github.com/TNK-Studio/lazykube ⎈ The lazier way to manage kubernetes.
-- [+ See More](https://pkg.go.dev/github.com/gookit/color?tab=importedby)
+- [+ See More](https://pkg.go.dev/github.com/zhangyiming748/pretty/color?tab=importedby)
 
-## Gookit 工具包
+## zhangyiming748/pretty 工具包
 
-  - [gookit/ini](https://github.com/gookit/ini) INI配置读取管理，支持多文件加载，数据覆盖合并, 解析ENV变量, 解析变量引用
-  - [gookit/rux](https://github.com/gookit/rux) Simple and fast request router for golang HTTP 
-  - [gookit/gcli](https://github.com/gookit/gcli) Go的命令行应用，工具库，运行CLI命令，支持命令行色彩，用户交互，进度显示，数据格式化显示
-  - [gookit/slog](https://github.com/gookit/slog) 简洁易扩展的go日志库
-  - [gookit/event](https://github.com/gookit/event) Go实现的轻量级的事件管理、调度程序库, 支持设置监听器的优先级, 支持对一组事件进行监听
-  - [gookit/cache](https://github.com/gookit/cache) 通用的缓存使用包装库，通过包装各种常用的驱动，来提供统一的使用API
-  - [gookit/config](https://github.com/gookit/config) Go应用配置管理，支持多种格式（JSON, YAML, TOML, INI, HCL, ENV, Flags），多文件加载，远程文件加载，数据合并
-  - [gookit/color](https://github.com/gookit/color) CLI 控制台颜色渲染工具库, 拥有简洁的使用API，支持16色，256色，RGB色彩渲染输出
-  - [gookit/filter](https://github.com/gookit/filter) 提供对Golang数据的过滤，净化，转换
-  - [gookit/validate](https://github.com/gookit/validate) Go通用的数据验证与过滤库，使用简单，内置大部分常用验证、过滤器
+  - [zhangyiming748/pretty/ini](https://github.com/zhangyiming748/pretty/ini) INI配置读取管理，支持多文件加载，数据覆盖合并, 解析ENV变量, 解析变量引用
+  - [zhangyiming748/pretty/rux](https://github.com/zhangyiming748/pretty/rux) Simple and fast request router for golang HTTP 
+  - [zhangyiming748/pretty/gcli](https://github.com/zhangyiming748/pretty/gcli) Go的命令行应用，工具库，运行CLI命令，支持命令行色彩，用户交互，进度显示，数据格式化显示
+  - [zhangyiming748/pretty/slog](https://github.com/zhangyiming748/pretty/slog) 简洁易扩展的go日志库
+  - [zhangyiming748/pretty/event](https://github.com/zhangyiming748/pretty/event) Go实现的轻量级的事件管理、调度程序库, 支持设置监听器的优先级, 支持对一组事件进行监听
+  - [zhangyiming748/pretty/cache](https://github.com/zhangyiming748/pretty/cache) 通用的缓存使用包装库，通过包装各种常用的驱动，来提供统一的使用API
+  - [zhangyiming748/pretty/config](https://github.com/zhangyiming748/pretty/config) Go应用配置管理，支持多种格式（JSON, YAML, TOML, INI, HCL, ENV, Flags），多文件加载，远程文件加载，数据合并
+  - [zhangyiming748/pretty/color](https://github.com/zhangyiming748/pretty/color) CLI 控制台颜色渲染工具库, 拥有简洁的使用API，支持16色，256色，RGB色彩渲染输出
+  - [zhangyiming748/pretty/filter](https://github.com/zhangyiming748/pretty/filter) 提供对Golang数据的过滤，净化，转换
+  - [zhangyiming748/pretty/validate](https://github.com/zhangyiming748/pretty/validate) Go通用的数据验证与过滤库，使用简单，内置大部分常用验证、过滤器
   - [zhangyiming748/pretty](https://github.com/zhangyiming748/pretty) Go 的一些工具函数，格式化，特殊处理，常用信息获取等
-  - 更多请查看 https://github.com/gookit
+  - 更多请查看 https://github.com/zhangyiming748/pretty
 
 ## 参考项目
 

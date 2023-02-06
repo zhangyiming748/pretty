@@ -116,7 +116,7 @@ var (
 // refer
 //
 //	https://github.com/Delta456/box-cli-maker/blob/7b5a1ad8a016ce181e7d8b05e24b54ff60b4b38a/detect_windows.go#L30-L57
-//	https://github.com/gookit/color/issues/25#issuecomment-738727917
+//	https://github.com/zhangyiming748/pretty/color/issues/25#issuecomment-738727917
 //
 // detects the color level supported on Windows: cmd, powerShell
 func detectSpecialTermColor(termVal string) (tl Level, needVTP bool) {

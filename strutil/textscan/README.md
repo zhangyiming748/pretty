@@ -101,5 +101,5 @@ line string
 
 `textscan` is used in these projects:
 
-- https://github.com/gookit/ini
-- https://github.com/gookit/properties
+- https://github.com/zhangyiming748/pretty/ini
+- https://github.com/zhangyiming748/pretty/properties

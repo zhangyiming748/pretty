@@ -25,13 +25,13 @@ func TestFuncForPC(t *testing.T) {
 	assert.Nil(t, fn)
 
 	fn = FuncForPC(reflect.ValueOf(Config).Pointer())
-	assert.Contains(t, fn.Location(), "gookit/goutil/errorx.Config()")
+	assert.Contains(t, fn.Location(), "zhangyiming748/pretty/errorx.Config()")
 	assert.Contains(t, fn.String(), "goutil/errorx/stack.go")
 
 	bs, err := fn.MarshalText()
 	assert.NoErr(t, err)
 	str := string(bs)
-	assert.Contains(t, str, "gookit/goutil/errorx.Config()")
+	assert.Contains(t, str, "zhangyiming748/pretty/errorx.Config()")
 	assert.Contains(t, str, "goutil/errorx/stack.go")
 }
 

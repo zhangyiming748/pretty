@@ -1,13 +1,13 @@
 # CLI Color
 
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)
-[![Actions Status](https://github.com/gookit/color/workflows/action-tests/badge.svg)](https://github.com/gookit/color/actions)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7fef8d74c1d64afc99ce0f2c6d3f8af1)](https://www.codacy.com/gh/gookit/color/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gookit/color&amp;utm_campaign=Badge_Grade)
-[![GoDoc](https://godoc.org/github.com/gookit/color?status.svg)](https://pkg.go.dev/github.com/gookit/color?tab=overview)
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/gookit/color)](https://github.com/gookit/color)
-[![Build Status](https://travis-ci.org/gookit/color.svg?branch=master)](https://travis-ci.org/gookit/color)
-[![Coverage Status](https://coveralls.io/repos/github/gookit/color/badge.svg?branch=master)](https://coveralls.io/github/gookit/color?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gookit/color)](https://goreportcard.com/report/github.com/gookit/color)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/zhangyiming748/pretty/color?style=flat-square)
+[![Actions Status](https://github.com/zhangyiming748/pretty/color/workflows/action-tests/badge.svg)](https://github.com/zhangyiming748/pretty/color/actions)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7fef8d74c1d64afc99ce0f2c6d3f8af1)](https://www.codacy.com/gh/zhangyiming748/pretty/color/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zhangyiming748/pretty/color&amp;utm_campaign=Badge_Grade)
+[![GoDoc](https://godoc.org/github.com/zhangyiming748/pretty/color?status.svg)](https://pkg.go.dev/github.com/zhangyiming748/pretty/color?tab=overview)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/zhangyiming748/pretty/color)](https://github.com/zhangyiming748/pretty/color)
+[![Build Status](https://travis-ci.org/zhangyiming748/pretty/color.svg?branch=master)](https://travis-ci.org/zhangyiming748/pretty/color)
+[![Coverage Status](https://coveralls.io/repos/github/zhangyiming748/pretty/color/badge.svg?branch=master)](https://coveralls.io/github/zhangyiming748/pretty/color?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zhangyiming748/pretty/color)](https://goreportcard.com/report/github.com/zhangyiming748/pretty/color)
 
 A command-line color library with 16/256/True color support, universal API methods and Windows support.
 
@@ -41,13 +41,13 @@ Now, 256 colors and RGB colors have also been supported to work in Windows CMD a
 
 ## GoDoc
 
-  - [godoc for gopkg](https://pkg.go.dev/gopkg.in/gookit/color.v1)
-  - [godoc for github](https://pkg.go.dev/github.com/gookit/color)
+  - [godoc for gopkg](https://pkg.go.dev/gopkg.in/zhangyiming748/pretty/color.v1)
+  - [godoc for github](https://pkg.go.dev/github.com/zhangyiming748/pretty/color)
 
 ## Install
 
 ```bash
-go get github.com/gookit/color
+go get github.com/zhangyiming748/pretty/color
 ```
 
 ## Quick start
@@ -346,7 +346,7 @@ s.Printf("style with %s\n", "options")
 
 ```go
 	text := `
-  <mga1>gookit/color:</>
+  <mga1>zhangyiming748/pretty/color:</>
      A <green>command-line</> 
      <cyan>color library</> with <fg=167;bg=232>256-color</>
      and <fg=11aa23;op=bold>True-color</> support,
@@ -510,7 +510,7 @@ There are some useful functions reference
 - `ClearTag(s string) string` clear all color html-tag for a string
 - `IsConsole(w io.Writer)` Determine whether w is one of stderr, stdout, stdin
 
-> More useful func please see https://pkg.go.dev/github.com/gookit/color
+> More useful func please see https://pkg.go.dev/github.com/zhangyiming748/pretty/color
 
 ### Detect color level
 
@@ -537,7 +537,7 @@ const (
 
 ## Projects using color
 
-Check out these projects, which use https://github.com/gookit/color :
+Check out these projects, which use https://github.com/zhangyiming748/pretty/color :
 
 - https://github.com/Delta456/box-cli-maker Make Highly Customized Boxes for your CLI
 - https://github.com/flipped-aurora/gin-vue-admin 基于gin+vue搭建的（中）后台系统框架
@@ -547,22 +547,22 @@ Check out these projects, which use https://github.com/gookit/color :
 - https://github.com/pterm/pterm PTerm is a modern Go module to beautify console output. Featuring charts, progressbars, tables, trees, etc.
 - https://github.com/securego/gosec Golang security checker
 - https://github.com/TNK-Studio/lazykube ⎈ The lazier way to manage kubernetes.
-- [+ See More](https://pkg.go.dev/github.com/gookit/color?tab=importedby)
+- [+ See More](https://pkg.go.dev/github.com/zhangyiming748/pretty/color?tab=importedby)
 
-## Gookit packages
+## zhangyiming748/pretty packages
 
-  - [gookit/ini](https://github.com/gookit/ini) Go config management, use INI files
-  - [gookit/rux](https://github.com/gookit/rux) Simple and fast request router for golang HTTP 
-  - [gookit/gcli](https://github.com/gookit/gcli) build CLI application, tool library, running CLI commands
-  - [gookit/slog](https://github.com/gookit/slog) Concise and extensible go log library
-  - [gookit/event](https://github.com/gookit/event) Lightweight event manager and dispatcher implements by Go
-  - [gookit/cache](https://github.com/gookit/cache) Generic cache use and cache manager for golang. support File, Memory, Redis, Memcached.
-  - [gookit/config](https://github.com/gookit/config) Go config management. support JSON, YAML, TOML, INI, HCL, ENV and Flags
-  - [gookit/color](https://github.com/gookit/color) A command-line color library with true color support, universal API methods and Windows support
-  - [gookit/filter](https://github.com/gookit/filter) Provide filtering, sanitizing, and conversion of golang data
-  - [gookit/validate](https://github.com/gookit/validate) Use for data validation and filtering. support Map, Struct, Form data
+  - [zhangyiming748/pretty/ini](https://github.com/zhangyiming748/pretty/ini) Go config management, use INI files
+  - [zhangyiming748/pretty/rux](https://github.com/zhangyiming748/pretty/rux) Simple and fast request router for golang HTTP 
+  - [zhangyiming748/pretty/gcli](https://github.com/zhangyiming748/pretty/gcli) build CLI application, tool library, running CLI commands
+  - [zhangyiming748/pretty/slog](https://github.com/zhangyiming748/pretty/slog) Concise and extensible go log library
+  - [zhangyiming748/pretty/event](https://github.com/zhangyiming748/pretty/event) Lightweight event manager and dispatcher implements by Go
+  - [zhangyiming748/pretty/cache](https://github.com/zhangyiming748/pretty/cache) Generic cache use and cache manager for golang. support File, Memory, Redis, Memcached.
+  - [zhangyiming748/pretty/config](https://github.com/zhangyiming748/pretty/config) Go config management. support JSON, YAML, TOML, INI, HCL, ENV and Flags
+  - [zhangyiming748/pretty/color](https://github.com/zhangyiming748/pretty/color) A command-line color library with true color support, universal API methods and Windows support
+  - [zhangyiming748/pretty/filter](https://github.com/zhangyiming748/pretty/filter) Provide filtering, sanitizing, and conversion of golang data
+  - [zhangyiming748/pretty/validate](https://github.com/zhangyiming748/pretty/validate) Use for data validation and filtering. support Map, Struct, Form data
   - [zhangyiming748/pretty](https://github.com/zhangyiming748/pretty) Some utils for the Go: string, array/slice, map, format, cli, env, filesystem, test and more
-  - More, please see https://github.com/gookit
+  - More, please see https://github.com/zhangyiming748/pretty
 
 ## See also
 

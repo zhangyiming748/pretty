@@ -55,7 +55,7 @@ func TestSplit(t *testing.T) {
 	ss = strutil.SplitN("a, , b,c", ",", 2)
 	assert.Eq(t, `[]string{"a", "b,c"}`, fmt.Sprintf("%#v", ss))
 
-	ss = strutil.SplitN("origin https://github.com/gookit/gitw (push)", " ", 3)
+	ss = strutil.SplitN("origin https://github.com/zhangyiming748/pretty/gitw (push)", " ", 3)
 	assert.Len(t, ss, 3)
 
 	ss = strutil.Split(" ", ",")

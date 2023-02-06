@@ -4,7 +4,7 @@ Support rich color rendering output, universal API method, compatible with Windo
 
 Source code and other details for the project are available at GitHub:
 
-	https://github.com/gookit/color
+	https://github.com/zhangyiming748/pretty/color
 
 More usage please see README and tests.
 */

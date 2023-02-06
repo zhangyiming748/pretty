@@ -5,12 +5,12 @@
 ## Install
 
 ```go
-go get github.com/gookit/goutil/errorx
+go get github.com/zhangyiming748/pretty/errorx
 ```
 
 ## Go docs
 
-- [Go docs](https://pkg.go.dev/github.com/gookit/goutil/errorx)
+- [Go docs](https://pkg.go.dev/github.com/zhangyiming748/pretty/errorx)
 
 ## Usage
 
@@ -87,12 +87,12 @@ Examples:
 ```text
 the error message
 STACK:
-github.com/gookit/goutil/errorx_test.returnXErr()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:21
-github.com/gookit/goutil/errorx_test.returnXErrL2()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:25
-github.com/gookit/goutil/errorx_test.TestNew()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:29
+github.com/zhangyiming748/pretty/errorx_test.returnXErr()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:21
+github.com/zhangyiming748/pretty/errorx_test.returnXErrL2()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:25
+github.com/zhangyiming748/pretty/errorx_test.TestNew()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:29
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
 runtime.goexit()
@@ -124,8 +124,8 @@ With a go raw error:
 ```text
 second error message
 STACK:
-github.com/gookit/goutil/errorx_test.TestWith_goerr()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:51
+github.com/zhangyiming748/pretty/errorx_test.TestWith_goerr()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:51
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
 runtime.goexit()
@@ -149,8 +149,8 @@ With a `errorx` error:
 ```text
 second error message
 STACK:
-github.com/gookit/goutil/errorx_test.TestWith_errorx()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:64
+github.com/zhangyiming748/pretty/errorx_test.TestWith_errorx()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:64
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
 runtime.goexit()
@@ -158,10 +158,10 @@ runtime.goexit()
 
 Previous: first error message
 STACK:
-github.com/gookit/goutil/errorx_test.returnXErr()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:21
-github.com/gookit/goutil/errorx_test.TestWith_errorx()
-  /Users/inhere/Workspace/godev/gookit/goutil/errorx/errorx_test.go:61
+github.com/zhangyiming748/pretty/errorx_test.returnXErr()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:21
+github.com/zhangyiming748/pretty/errorx_test.TestWith_errorx()
+  /Users/inhere/Workspace/godev/zhangyiming748/pretty/errorx/errorx_test.go:61
 testing.tRunner()
   /usr/local/Cellar/go/1.18/libexec/src/testing/testing.go:1439
 runtime.goexit()

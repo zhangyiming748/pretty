@@ -183,7 +183,7 @@ func (e *ErrorX) CallerFunc() *Func {
 //
 // Returns eg:
 //
-//	github.com/gookit/goutil/errorx_test.TestWithPrev(), errorx_test.go:34
+//	github.com/zhangyiming748/pretty/errorx_test.TestWithPrev(), errorx_test.go:34
 func (e *ErrorX) Location() string {
 	if e.stack == nil {
 		return "unknown"

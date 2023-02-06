@@ -1,6 +1,7 @@
 package textscan
 
 import (
+	"github.com/zhangyiming748/pretty"
 	"github.com/zhangyiming748/pretty/errorx"
 )
 
@@ -31,7 +32,7 @@ var kinds = map[Kind]string{
 // AddKind add global kind to kinds
 func AddKind(k Kind, name string) {
 	if _, ok := kinds[k]; ok {
-		goutil.Panicf("cannot repeat register kind(%d): %s", int(k), name)
+		pretty.Panicf("cannot repeat register kind(%d): %s", int(k), name)
 	}
 	kinds[k] = name
 }
